@@ -1,0 +1,4 @@
+oursql==0.9.3.1
+pysandbox==0.3.5
+sh==1.08
+wsgiref==0.1.2
