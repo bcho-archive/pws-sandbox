@@ -1,0 +1,9 @@
+*swp
+*pyc
+*~
+*.log
+secret.py
+
+venv/
+tmp/
+
