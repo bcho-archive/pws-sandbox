@@ -226,7 +226,7 @@ class Solutions(DB):
             sleep(sleep_time)
 
 
-if __name__ == '__main__':
+def main():
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
 
@@ -240,3 +240,7 @@ if __name__ == '__main__':
 
     polling = Solutions(logger)
     polling.poll()
+
+
+if __name__ == '__main__':
+    main()
